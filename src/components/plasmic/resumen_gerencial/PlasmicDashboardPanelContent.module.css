@@ -1,0 +1,117 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  border-left-width: 16px;
+  border-left-style: none;
+  min-width: 0;
+  padding: 24px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 16px;
+}
+.rootestado_enTermino {
+  border-left-style: solid;
+  border-left-color: var(--token-iyqbejFuI);
+}
+.rootestado_atrasado {
+  border-left-style: solid;
+  border-left-color: var(--token-_M8oPbG79);
+}
+.rootestado_recaudado {
+  border-left-style: solid;
+  border-left-color: var(--token-WoM1mACvA);
+}
+.rootestado_suspendidos {
+  border-left-style: solid;
+  border-left-color: var(--token-a3J_fQDgl);
+}
+.text {
+  display: block;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(34, 34, 34, 1);
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.textestado_recaudado {
+  padding-right: 0px;
+}
+.textGroup:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.title {
+  padding-right: 0px;
+  width: 100%;
+  min-width: 0;
+}
+.subtitle {
+  width: 100%;
+  min-width: 0;
+}
+.total:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.title2 {
+  padding-right: 0px;
+  width: 100%;
+  min-width: 0;
+}
+.subtitle2 {
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  min-width: 0;
+}
+.capital:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.title3 {
+  width: 100%;
+  min-width: 0;
+}
+.subtitle3 {
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  min-width: 0;
+}
+.intereses:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.title4 {
+  width: 100%;
+  min-width: 0;
+}
+.subtitle4 {
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  min-width: 0;
+}

@@ -1,0 +1,119 @@
+{
+  "props": [
+    {
+      "name": "black",
+      "type": "color",
+      "value": "currentcolor",
+      "category": "color",
+      "meta": {
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "id": "p_ccnTCY1"
+      }
+    },
+    {
+      "name": "blue 35",
+      "type": "color",
+      "value": "#0954AA",
+      "category": "color",
+      "meta": {
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "id": "iyqbejFuI"
+      }
+    },
+    {
+      "name": "blue 95",
+      "type": "color",
+      "value": "#E7F1FE",
+      "category": "color",
+      "meta": {
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "id": "Ho92qxx07"
+      }
+    },
+    {
+      "name": "blue 98",
+      "type": "color",
+      "value": "#F5F9FF",
+      "category": "color",
+      "meta": {
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "id": "H0nsH8rtC"
+      }
+    },
+    {
+      "name": "green 40",
+      "type": "color",
+      "value": "#00C785",
+      "category": "color",
+      "meta": {
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "id": "WoM1mACvA"
+      }
+    },
+    {
+      "name": "grey 10",
+      "type": "color",
+      "value": "#1A1A1A",
+      "category": "color",
+      "meta": {
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "id": "xSlNtzVmV"
+      }
+    },
+    {
+      "name": "grey 40",
+      "type": "color",
+      "value": "#666666",
+      "category": "color",
+      "meta": {
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "id": "Dz_AF2OjX"
+      }
+    },
+    {
+      "name": "grey 95",
+      "type": "color",
+      "value": "#F5F5F5",
+      "category": "color",
+      "meta": {
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "id": "AyDa2TXMa"
+      }
+    },
+    {
+      "name": "red 65",
+      "type": "color",
+      "value": "#ED5E5E",
+      "category": "color",
+      "meta": {
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "id": "_M8oPbG79"
+      }
+    },
+    {
+      "name": "white",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "id": "E31drrDbM"
+      }
+    },
+    {
+      "name": "yellow 50",
+      "type": "color",
+      "value": "#FBBC04",
+      "category": "color",
+      "meta": {
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "id": "a3J_fQDgl"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

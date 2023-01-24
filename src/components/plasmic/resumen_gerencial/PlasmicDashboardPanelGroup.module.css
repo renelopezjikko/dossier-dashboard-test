@@ -1,0 +1,50 @@
+.dashboardPanelGroup {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  grid-column-gap: 16px;
+  min-width: 0;
+  padding: 0px;
+}
+@media (min-width: 0px) and (max-width: 950px) {
+  .dashboardPanelGroup {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-row-gap: 16px;
+  }
+}
+@media (max-width: 646px) {
+  .dashboardPanelGroup {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.dashboardPanel___2LFxn:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.dashboardPanel__pfoBt:global(.__wab_instance) {
+  position: relative;
+  margin-bottom: 0px;
+  width: 100%;
+  min-width: 0;
+}
+.dashboardPanel__bq8N4:global(.__wab_instance) {
+  position: relative;
+  margin-bottom: 0px;
+  width: 100%;
+  min-width: 0;
+}
+.dashboardPanel___4RvN2:global(.__wab_instance) {
+  position: relative;
+  margin-bottom: 0px;
+  width: 100%;
+  min-width: 0;
+}
+.dashboardPanel__jlqRz:global(.__wab_instance) {
+  position: relative;
+  margin-bottom: 0px;
+  width: 100%;
+  min-width: 0;
+}

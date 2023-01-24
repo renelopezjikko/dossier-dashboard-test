@@ -1,0 +1,128 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "2kD2XthGtXKCG8U42Tcha7",
+      "projectApiToken": "2G2bCyL8QmJYVMo9Zcd8hLzyInCDRjQQoMHfDTS75BoaZTyN6HcRjOL1LtyEPDUrSXN7RXo3SMMekhLrYhuA",
+      "projectName": "Resumen Gerencial",
+      "version": "latest",
+      "cssFilePath": "plasmic/resumen_gerencial/plasmic_resumen_gerencial.module.css",
+      "components": [
+        {
+          "id": "-aplkpCpKqjT",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "2kD2XthGtXKCG8U42Tcha7",
+          "renderModuleFilePath": "plasmic/resumen_gerencial/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/resumen_gerencial/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "RFL4aeFfPU",
+          "name": "DashboardPanel",
+          "type": "managed",
+          "projectId": "2kD2XthGtXKCG8U42Tcha7",
+          "renderModuleFilePath": "plasmic/resumen_gerencial/PlasmicDashboardPanel.tsx",
+          "importSpec": {
+            "modulePath": "DashboardPanel.tsx"
+          },
+          "cssFilePath": "plasmic/resumen_gerencial/PlasmicDashboardPanel.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "WtPaT5ym56",
+          "name": "TextGroup",
+          "type": "managed",
+          "projectId": "2kD2XthGtXKCG8U42Tcha7",
+          "renderModuleFilePath": "plasmic/resumen_gerencial/PlasmicTextGroup.tsx",
+          "importSpec": {
+            "modulePath": "TextGroup.tsx"
+          },
+          "cssFilePath": "plasmic/resumen_gerencial/PlasmicTextGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "vnBlyrKYZiC",
+          "name": "DashboardPanelContent",
+          "type": "managed",
+          "projectId": "2kD2XthGtXKCG8U42Tcha7",
+          "renderModuleFilePath": "plasmic/resumen_gerencial/PlasmicDashboardPanelContent.tsx",
+          "importSpec": {
+            "modulePath": "DashboardPanelContent.tsx"
+          },
+          "cssFilePath": "plasmic/resumen_gerencial/PlasmicDashboardPanelContent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "aUt5hf66GP",
+          "name": "DashboardPanelGroup",
+          "type": "managed",
+          "projectId": "2kD2XthGtXKCG8U42Tcha7",
+          "renderModuleFilePath": "plasmic/resumen_gerencial/PlasmicDashboardPanelGroup.tsx",
+          "importSpec": {
+            "modulePath": "DashboardPanelGroup.tsx"
+          },
+          "cssFilePath": "plasmic/resumen_gerencial/PlasmicDashboardPanelGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "tu7Xakhr-s",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "v5-e4X24yR",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "m0S0NKgfUxNfe",
+        "name": "Screen",
+        "projectId": "2kD2XthGtXKCG8U42Tcha7",
+        "contextFilePath": "plasmic/resumen_gerencial/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.202",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.202/dist/plasmic.schema.json"
+}

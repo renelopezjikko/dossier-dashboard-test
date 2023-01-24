@@ -1,0 +1,86 @@
+.root {
+  flex-direction: column;
+  background: var(--token-AyDa2TXMa);
+  display: inline-flex;
+  flex-grow: 0;
+  width: auto;
+  height: auto;
+  border-left-style: none;
+  position: relative;
+  flex-shrink: 1;
+  overflow: hidden;
+  transition-property: all;
+  transition-duration: 1s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 1s;
+  border-radius: 4px;
+  padding: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 16px;
+}
+.rootselected {
+  border-width: 2px;
+  border-style: solid;
+}
+.rootestado_enTermino {
+  border-left-style: solid;
+  border-left-color: #0856b2;
+}
+.rootestado_atrasado {
+  border-left-style: solid;
+  border-left-color: #eb5757;
+}
+.rootestado_recaudado {
+  border-left-style: solid;
+  border-left-color: #00c880;
+}
+.rootestado_suspendidos {
+  border-left-style: solid;
+  border-left-color: #fbbc04;
+}
+.rootestado_enTermino_selected {
+  overflow: hidden;
+  border-color: var(--token-p_ccnTCY1);
+}
+.rootestado_atrasado_selected {
+  overflow: hidden;
+  border-color: var(--token-p_ccnTCY1);
+}
+.rootestado_recaudado_selected {
+  border-color: var(--token-p_ccnTCY1);
+}
+.rootestado_suspendidos_selected {
+  border-color: var(--token-p_ccnTCY1);
+}
+.root:hover {
+  box-shadow: 0px 4px 16px 0px #00000026;
+  background: var(--token-H0nsH8rtC);
+}
+.root:active {
+  border-width: 1px;
+  border-style: solid;
+}
+.dashboardPanelContent___2Xzot:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+@media (min-width: 0px) and (max-width: 950px) {
+  .dashboardPanelContent___2Xzot:global(.__wab_instance) {
+    height: 100%;
+    min-height: 0;
+  }
+}
