@@ -10,8 +10,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   min-height: 0;
   margin-top: calc(0px - 24px);
@@ -22,6 +22,464 @@
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 24px;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  min-width: 0;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.typedropdownSildernoHovernoActivenoEmptyyesZlotnoDisabledno {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(201, 201, 201, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+}
+.inputFieldContent109 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  padding-left: 12px;
+  padding-right: 4px;
+}
+.inputFieldContent109 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 2px);
+  width: calc(100% + 2px);
+}
+.inputFieldContent109 > :global(.__wab_flex-container) > *,
+.inputFieldContent109
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.inputFieldContent109 > :global(.__wab_flex-container) > picture > img,
+.inputFieldContent109
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 2px;
+}
+.inputTextWithZlot102 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.inputTextWithZlot102 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 2px);
+  width: calc(100% + 2px);
+}
+.inputTextWithZlot102 > :global(.__wab_flex-container) > *,
+.inputTextWithZlot102
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.inputTextWithZlot102 > :global(.__wab_flex-container) > picture > img,
+.inputTextWithZlot102
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 2px;
+}
+.iconButton2012 {
+  background: rgba(255, 255, 255, 0);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.tooltip300 {
+  background: rgba(34, 34, 34, 1);
+  height: 0px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.spacer102 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame2 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.tooltipText {
+  display: block;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.svg__zQb35 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #232323;
+  width: 4px;
+  height: 4px;
+  display: block;
+  flex-shrink: 0;
+}
+.iconWrapper103 {
+  background: rgba(255, 255, 255, 0);
+  width: 16px;
+  height: 16px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 16px;
+  height: 16px;
+  display: block !important;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.inputText103 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.inputText103 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 2px);
+  height: calc(100% + 2px);
+}
+.inputText103 > :global(.__wab_flex-container) > *,
+.inputText103 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.inputText103 > :global(.__wab_flex-container) > picture > img,
+.inputText103
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 2px;
+}
+.label {
+  display: block;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(87, 87, 87, 1);
+  position: relative;
+  margin-bottom: 0px;
+}
+.inputValue100 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.inputValue100 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 1px);
+  width: calc(100% + 1px);
+}
+.inputValue100 > :global(.__wab_flex-container) > *,
+.inputValue100 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.inputValue100 > :global(.__wab_flex-container) > picture > img,
+.inputValue100
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 1px;
+}
+.keyboardCursor100 {
+  background: rgba(255, 255, 255, 0);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frame3 {
+  background: rgba(255, 255, 255, 0);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.frame3 > :global(.__wab_flex-container) > *,
+.frame3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame3 > :global(.__wab_flex-container) > picture > img,
+.frame3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.frame4 {
+  background: rgba(117, 117, 117, 1);
+  width: 1px;
+  height: 16px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  display: block;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: #000000;
+  position: relative;
+}
+.iconButton20122 {
+  background: rgba(255, 255, 255, 0);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.tooltip3002 {
+  background: rgba(34, 34, 34, 1);
+  height: 0px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.spacer1022 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame5 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame6 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.tooltipText2 {
+  display: block;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.svg__zKzQt {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #232323;
+  width: 4px;
+  height: 4px;
+  display: block;
+  flex-shrink: 0;
+}
+.svg__i9Jq {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #232323;
+  width: 16px;
+  height: 16px;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.spacer1023 {
+  width: 1px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame7 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame8 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.iconnoneHeight48HasLinesfalseTypeprimaryStatedefaultHovernoTooltipAlignmentnaTooltipPositionna {
+  background: rgba(7, 85, 177, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 14.5px 24px;
+}
+.iconnoneHeight48HasLinesfalseTypeprimaryStatedefaultHovernoTooltipAlignmentnaTooltipPositionna
+  > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.iconnoneHeight48HasLinesfalseTypeprimaryStatedefaultHovernoTooltipAlignmentnaTooltipPositionna
+  > :global(.__wab_flex-container)
+  > *,
+.iconnoneHeight48HasLinesfalseTypeprimaryStatedefaultHovernoTooltipAlignmentnaTooltipPositionna
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.iconnoneHeight48HasLinesfalseTypeprimaryStatedefaultHovernoTooltipAlignmentnaTooltipPositionna
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.iconnoneHeight48HasLinesfalseTypeprimaryStatedefaultHovernoTooltipAlignmentnaTooltipPositionna
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.buttonLabel {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
 }
 .dashboardPanelGroup:global(.__wab_instance) {
   max-width: 100%;

@@ -94,8 +94,40 @@
           "componentType": "component"
         }
       ],
-      "icons": [],
-      "images": [],
+      "icons": [
+        {
+          "id": "UKPUMOhTY",
+          "name": "TooltipTip100Icon",
+          "moduleFilePath": "plasmic/resumen_gerencial/icons/PlasmicIcon__TooltipTip100.tsx"
+        },
+        {
+          "id": "iLE7iNdkM",
+          "name": "KeyboardArrow1003Icon",
+          "moduleFilePath": "plasmic/resumen_gerencial/icons/PlasmicIcon__KeyboardArrow1003.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "uS315bzmoH",
+          "name": "KeyboardArrow@1.0.0",
+          "filePath": "plasmic/resumen_gerencial/images/keyboardArrow100.svg"
+        },
+        {
+          "id": "sTcqbybefn",
+          "name": "CloseIcon@1.0.1",
+          "filePath": "plasmic/resumen_gerencial/images/closeIcon101.svg"
+        },
+        {
+          "id": "VSX8haG748",
+          "name": "CalendarTodayIcon@1.0.1",
+          "filePath": "plasmic/resumen_gerencial/images/calendarTodayIcon101.svg"
+        },
+        {
+          "id": "BsHKxIeg2B",
+          "name": "KeyboardArrow@1.0.0 2",
+          "filePath": "plasmic/resumen_gerencial/images/keyboardArrow1002.svg"
+        }
+      ],
       "indirect": false,
       "globalContextsFilePath": "",
       "codeComponents": [
