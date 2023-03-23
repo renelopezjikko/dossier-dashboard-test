@@ -1,16 +1,16 @@
 .textLayers {
-  flex-direction: column;
   background: rgba(255, 255, 255, 0);
   width: 100%;
   height: auto;
   display: flex;
+  flex-direction: column;
   position: relative;
   min-width: 0;
 }
 .textLayers > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
